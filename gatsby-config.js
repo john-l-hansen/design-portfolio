@@ -19,14 +19,14 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
+      },  
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'prist', // (REQUIRED, replace with your own)
+            repositoryName: 'john-hansen-design', // (REQUIRED, replace with your own)
             linkResolver: () => post => `/${post.uid}`,
         }
     },
