@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
-    author: `Marguerite Roth | marguerite.io`,
+    title: `John Hansen | Design Portfolio`,
+        description: `The design portfolio of product designer John Hansen.`,
+    author: `John Hansen | johnhansen.design`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'john-hansen-design', // (REQUIRED, replace with your own)
+            repositoryName: 'john-hansen-design.cdn', // (REQUIRED, replace with your own)
             linkResolver: () => post => `/${post.uid}`,
         }
     },
@@ -36,8 +36,8 @@ module.exports = {
         name: `gatsby-prismic-starter-prist`,
         short_name: `prist`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
       },
