@@ -15,11 +15,16 @@ const ProjectHeroContainer = styled("div")`
     align-items: flex-end;
     overflow: hidden;
     position: relative;
-    padding-top: 2.25em;
+
+    // remove padding
+    // padding-top: 2.25em;
+
     margin-bottom: 3.5em;
 
+   
     img {
-        max-width: 600px;
+        // remove max width
+        // max-width: 600px;
     }
 `
 
