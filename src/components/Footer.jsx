@@ -54,7 +54,7 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://www.marguerite.io/?utm_source=prist&utm_medium=footer&utm_campaign=prist_starterhttps://www.linkedin.com/in/john-hansen-51796829/">
-            © 2020 — John Hansen
+            © 2020 — Made by John Hansen in Los Angeles
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
