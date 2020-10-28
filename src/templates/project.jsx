@@ -24,12 +24,12 @@ const ProjectHeroContainer = styled("div")`
    
     img {
         // remove max width
-        // max-width: 1440;
+        // max-width: 1440px;
     }
 `
 
 const ProjectTitle = styled("div") `
-    max-width: 550px;
+    max-width: 1440px;
     margin: 0 auto;
     text-align: center;
 `
