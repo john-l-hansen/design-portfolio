@@ -6,6 +6,7 @@ import { RichText } from "prismic-reactjs";
 import PropTypes from "prop-types";
 
 const AboutContainer = styled("div")`
+    <AboutContainer id="about">
     padding-top: 1em;
     display: grid;
     grid-template-columns: 8em 1fr 8em;
@@ -20,6 +21,7 @@ const AboutContainer = styled("div")`
         grid-template-rows: 3em 1fr;
         grid-gap: 2em;
     }
+    </AboutContainer>
 `
 
 const AboutLinkContainer = styled("div")`
