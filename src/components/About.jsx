@@ -6,7 +6,6 @@ import { RichText } from "prismic-reactjs";
 import PropTypes from "prop-types";
 
 const AboutContainer = styled("div")`
-    <AboutContainer id="about">
     padding-top: 1em;
     display: grid;
     grid-template-columns: 8em 1fr 8em;
@@ -99,7 +98,7 @@ const About = ({ bio, socialLinks }) => (
             {RichText.render(bio)}
         </AboutBio>
         <AboutActions>
-            <a href="mailto:johnl.hansen.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:john.l.hansen@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Button className="Button--secondary">
                     Email me
                 </Button>

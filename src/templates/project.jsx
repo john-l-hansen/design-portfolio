@@ -15,17 +15,7 @@ const ProjectHeroContainer = styled("div")`
     align-items: flex-end;
     overflow: hidden;
     position: relative;
-
-    // remove padding
-    // padding-top: 2.25em;
-
     margin-bottom: 3.5em;
-
-   
-    img {
-        // remove max width
-        // max-width: 1440px;
-    }
 `
 
 const ProjectTitle = styled("div") `
@@ -53,7 +43,6 @@ const WorkLink = styled(Link)`
     display: block;
     text-align: center;
 `
-
 
 const Project = ({ project, meta }) => {
     return (
