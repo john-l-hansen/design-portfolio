@@ -35,7 +35,7 @@ const FooterAuthor = styled("a")`
             animation-iteration-count: infinite;
             animation-timing-function: linear;
         }
-    }
+    } 
 
     @keyframes rotate {
         from {transform: rotate(0deg);}
@@ -50,9 +50,6 @@ const FooterSpooch = styled("img")`
 
 const Footer = () => (
     <FooterContainer>
-        <Link to="/">
-            <Logo />
-        </Link>
         <FooterAuthor href="https://www.linkedin.com/in/john-hansen-51796829/">
             © 2020 — Made by John Hansen in Los Angeles with 🥢
             <FooterSpooch className="FooterSpooch" src={spooch} />
