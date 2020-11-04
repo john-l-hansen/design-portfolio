@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-catloaf-large.gif`,
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
