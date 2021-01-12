@@ -1,7 +1,12 @@
 @import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 html {
     font-family: 'Inter', sans-serif;
+}
+
+h6 {
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 @supports (font-variation-settings: normal) {
