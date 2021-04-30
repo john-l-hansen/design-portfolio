@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `John Hansen | Design Portfolio`,
         description: `The design portfolio of product designer John Hansen.`,
-    author: `John Hansen | johnhansen.design`,
+    author: `John Hansen`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

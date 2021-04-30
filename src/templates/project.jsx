@@ -25,7 +25,7 @@ const ProjectTitle = styled("div") `
 `
 
 const ProjectBody = styled("div")`
-    max-width: 1440px;
+    max-width: 680px;
     margin: 0 auto;
 
     .block-img {
@@ -48,7 +48,7 @@ const Project = ({ project, meta }) => {
     return (
         <>
             <Helmet
-                title={`${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`}
+                title={`${project.project_title[0].text} | John Hansen`}
                 titleTemplate={`%s | ${meta.title}`}
                 meta={[
                     {
@@ -57,7 +57,7 @@ const Project = ({ project, meta }) => {
                     },
                     {
                         property: `og:title`,
-                        content: `${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`,
+                        content: `${project.project_title[0].text} | John Hansen`,
                     },
                     {
                         property: `og:description`,
